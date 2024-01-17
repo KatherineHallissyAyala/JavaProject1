@@ -7,5 +7,16 @@ public class FirstForLoop {
                 System.out.println("can vote at index" + i);
             }
         }
+
+        int count=0;
+        for (int element:ages){
+            System.out.println(count + " " + element);
+            count++;
+            if (element > 40){
+                break;
+            }
+        }
+
+        String[] names = new String[5];
     }
 }
