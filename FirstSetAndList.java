@@ -3,7 +3,7 @@ import java.util.TreeSet;
 import java.util.Set;
 import java.util.ArrayList;
 
-class Sets {
+class FirstSetAndList {
     public static void main(){
         Set<Integer> scores = new TreeSet<>();
         scores.add(22);
