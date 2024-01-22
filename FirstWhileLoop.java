@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class FirstWhileLoop {
     public static void main(String[] args){
+        System.out.println("Get ready to guess some numbers!");
+        numberGuesses();
+
+    }
+    public static void numberGuesses(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Type a number: ");
         int x = sc.nextInt();
@@ -15,5 +20,6 @@ public class FirstWhileLoop {
             System.out.print("Type a number.  Will break if a number is over 20.");
             x = sc.nextInt();
         } while (x <= 20);
+
     }
 }
