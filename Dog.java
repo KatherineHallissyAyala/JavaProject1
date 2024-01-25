@@ -1,6 +1,6 @@
 public class Dog {
     
-    private String name;
+    public String name;
     private int age;
     private int weight;
     private String breed;

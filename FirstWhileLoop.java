@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class FirstWhileLoop {
     public static void main(String[] args){
+
+        Cat fluffy = new Cat("Fluffy");
+        Cat snowball = new Cat("Snowball", 3, 40);
+
         System.out.println("Get ready to guess some numbers!");
         numberGuesses();
 
